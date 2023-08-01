@@ -10,7 +10,12 @@ Asegúrate de tener instalados los siguientes componentes:
 - Composer
 - Base de datos compatible con Laravel (por ejemplo, MySQL, PostgreSQL)
 
-Puedes instalar 
+Puedes instalar xampp al hacer esto te instala
+
+- PHP (versión 7.4 o superior)
+- MySQL
+
+tienes que instalar composer.
 
 ## Pasos de configuración
 
