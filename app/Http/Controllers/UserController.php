@@ -18,8 +18,8 @@ class UserController extends Controller
      */
     public function index()
     {
-        $users = User::all();
-        return Response($users, 200);
+        $users = User::with('TypeDocument')->get();
+        return response()->json($users, 200);
     }
 
     /**
